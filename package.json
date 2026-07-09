@@ -1,0 +1,22 @@
+{
+  "name": "pro-vscode-themes",
+  "displayName": "Pro VSCode Themes",
+  "description": "Professional themes for Visual Studio Code developers.",
+  "version": "1.0.0",
+  "publisher": "alvarosiles",
+  "categories": [
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pro Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pro-dark-color-theme.json"
+      }
+    ]
+  }
+}
