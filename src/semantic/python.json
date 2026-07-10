@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Decorators",
+    "scope": ["entity.name.function.decorator.python", "punctuation.definition.decorator.python"],
+    "settings": { "foreground": "{{yellow}}" }
+  },
+  {
+    "name": "self/cls",
+    "scope": ["variable.parameter.function.language.special.self.python", "variable.language.special.self.python"],
+    "settings": { "foreground": "{{pink}}", "fontStyle": "italic" }
+  },
+  {
+    "name": "f-strings",
+    "scope": ["string.quoted.docstring.multi.python", "meta.fstring.python"],
+    "settings": { "foreground": "{{green}}" }
+  },
+  {
+    "name": "Magic methods (dunder)",
+    "scope": ["support.function.magic.python"],
+    "settings": { "foreground": "{{accentBlue}}", "fontStyle": "italic" }
+  }
+]

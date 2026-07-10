@@ -1,0 +1,27 @@
+[
+  {
+    "name": "JSX/TSX tags",
+    "scope": ["entity.name.tag.js", "entity.name.tag.jsx", "support.class.component.js"],
+    "settings": { "foreground": "{{red}}" }
+  },
+  {
+    "name": "Template literal expression braces",
+    "scope": ["punctuation.definition.template-expression", "meta.template.expression"],
+    "settings": { "foreground": "{{purple}}" }
+  },
+  {
+    "name": "Decorators",
+    "scope": ["meta.decorator", "punctuation.decorator"],
+    "settings": { "foreground": "{{yellow}}" }
+  },
+  {
+    "name": "Import/export keywords",
+    "scope": ["keyword.control.import.js", "keyword.control.export.js", "keyword.control.from.js"],
+    "settings": { "foreground": "{{purple}}", "fontStyle": "italic" }
+  },
+  {
+    "name": "this/super",
+    "scope": ["variable.language.this.js", "variable.language.super.js"],
+    "settings": { "foreground": "{{pink}}", "fontStyle": "italic" }
+  }
+]

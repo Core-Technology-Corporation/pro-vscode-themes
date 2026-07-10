@@ -1,0 +1,20 @@
+{
+  "terminal.background": "{{bg0}}",
+  "terminal.foreground": "{{fg}}",
+  "terminal.ansiBlack": "{{bg2}}",
+  "terminal.ansiRed": "{{red}}",
+  "terminal.ansiGreen": "{{green}}",
+  "terminal.ansiYellow": "{{yellow}}",
+  "terminal.ansiBlue": "{{accentBlue}}",
+  "terminal.ansiMagenta": "{{purple}}",
+  "terminal.ansiCyan": "{{cyan}}",
+  "terminal.ansiWhite": "{{fg}}",
+  "terminal.ansiBrightBlack": "{{fgSubtle}}",
+  "terminal.ansiBrightRed": "{{redBright}}",
+  "terminal.ansiBrightGreen": "{{greenBright}}",
+  "terminal.ansiBrightYellow": "{{yellowBright}}",
+  "terminal.ansiBrightBlue": "{{accentBlueBright}}",
+  "terminal.ansiBrightMagenta": "{{purpleBright}}",
+  "terminal.ansiBrightCyan": "{{cyanBright}}",
+  "terminal.ansiBrightWhite": "{{fgBright}}"
+}

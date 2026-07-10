@@ -4,18 +4,45 @@
   "description": "Professional themes for Visual Studio Code developers.",
   "version": "1.0.0",
   "publisher": "alvarosiles",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1B1D23",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvarosiles/pro-vscode-themes"
+  },
+  "bugs": {
+    "url": "https://github.com/alvarosiles/pro-vscode-themes/issues"
+  },
+  "homepage": "https://github.com/alvarosiles/pro-vscode-themes#readme",
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark theme",
+    "pro",
+    "productivity"
+  ],
   "categories": [
     "Themes"
   ],
   "engines": {
     "vscode": "^1.80.0"
   },
+  "scripts": {
+    "build": "node src/generator/build.js",
+    "vscode:prepublish": "npm run build",
+    "package": "vsce package",
+    "release": "node scripts/release.js"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Pro Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/pro-dark-color-theme.json"
+        "path": "./themes/Pro Dark Color Theme.json"
       }
     ]
   }

@@ -1,0 +1,47 @@
+{
+  "panel.background": "{{bg1}}",
+  "panel.border": "{{bg2}}",
+  "panelTitle.activeForeground": "{{fgBright}}",
+  "panelTitle.inactiveForeground": "{{fgFaint}}",
+  "panelTitle.activeBorder": "{{accentBlue}}",
+
+  "input.background": "{{bg2}}",
+  "input.foreground": "{{fg}}",
+  "input.border": "{{borderSubtle}}",
+  "input.placeholderForeground": "{{fgFaint}}",
+  "inputOption.activeBorder": "{{accentBlue}}",
+  "dropdown.background": "{{bg2}}",
+  "dropdown.border": "{{borderSubtle}}",
+
+  "button.background": "{{accentBlue}}",
+  "button.foreground": "{{bgDeep}}",
+  "button.hoverBackground": "{{accentBlueHover}}",
+  "button.secondaryBackground": "{{borderSubtle}}",
+  "button.secondaryForeground": "{{fg}}",
+  "button.secondaryHoverBackground": "{{bg3}}",
+
+  "badge.background": "{{accentBlue}}",
+  "badge.foreground": "{{bgDeep}}",
+
+  "scrollbarSlider.background": "{{fgSubtle}}44",
+  "scrollbarSlider.hoverBackground": "{{fgSubtle}}77",
+  "scrollbarSlider.activeBackground": "{{fgSubtle}}99",
+
+  "progressBar.background": "{{accentBlue}}",
+
+  "notifications.background": "{{bgHover}}",
+  "notifications.foreground": "{{fg}}",
+  "notificationCenterHeader.background": "{{bg1}}",
+  "notifications.border": "{{bg2}}",
+
+  "peekView.border": "{{accentBlue}}",
+  "peekViewEditor.background": "{{bg1}}",
+  "peekViewResult.background": "{{bg1}}",
+  "peekViewTitle.background": "{{bg2}}",
+
+  "extensionButton.prominentBackground": "{{accentBlue}}",
+  "extensionButton.prominentForeground": "{{bgDeep}}",
+  "extensionButton.prominentHoverBackground": "{{accentBlueHover}}",
+
+  "welcomePage.tileBackground": "{{bgHover}}"
+}

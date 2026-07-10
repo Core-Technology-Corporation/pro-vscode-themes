@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Types and interfaces",
+    "scope": ["entity.name.type.ts", "entity.name.type.interface.ts", "entity.name.type.module.ts"],
+    "settings": { "foreground": "{{yellow}}" }
+  },
+  {
+    "name": "Generic type parameters",
+    "scope": ["punctuation.definition.typeparameters.ts", "meta.type.parameters.ts"],
+    "settings": { "foreground": "{{fgMuted}}" }
+  },
+  {
+    "name": "Decorators",
+    "scope": ["meta.decorator.ts"],
+    "settings": { "foreground": "{{yellow}}" }
+  },
+  {
+    "name": "Enum members",
+    "scope": ["variable.other.enummember.ts"],
+    "settings": { "foreground": "{{cyan}}" }
+  }
+]

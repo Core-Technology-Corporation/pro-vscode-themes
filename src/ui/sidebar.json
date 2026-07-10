@@ -1,0 +1,22 @@
+{
+  "sideBar.background": "{{bg1}}",
+  "sideBar.foreground": "{{fgSecondary}}",
+  "sideBar.border": "{{bg2}}",
+  "sideBarTitle.foreground": "{{fg}}",
+  "sideBarSectionHeader.background": "{{bg1}}",
+  "sideBarSectionHeader.border": "{{bg2}}",
+
+  "list.activeSelectionBackground": "{{bgSelection}}",
+  "list.activeSelectionForeground": "{{fgBright}}",
+  "list.inactiveSelectionBackground": "{{bgHover}}",
+  "list.hoverBackground": "{{bgHover}}",
+  "list.focusBackground": "{{bgSelection}}",
+  "list.highlightForeground": "{{accentBlue}}",
+
+  "gitDecoration.addedResourceForeground": "{{green}}",
+  "gitDecoration.modifiedResourceForeground": "{{accentBlue}}",
+  "gitDecoration.deletedResourceForeground": "{{red}}",
+  "gitDecoration.untrackedResourceForeground": "{{green}}",
+  "gitDecoration.ignoredResourceForeground": "{{fgSubtle}}",
+  "gitDecoration.conflictingResourceForeground": "{{orange}}"
+}

@@ -1,0 +1,40 @@
+{
+  "_status": "todo: not a real midnight palette yet — values are copied from dark.json as safe placeholders. Marked ready:false in src/generator/build.js until redesigned.",
+
+  "bg0": "#1B1D23",
+  "bg1": "#16171C",
+  "bg2": "#101115",
+  "bg3": "#343846",
+  "bgActive": "#22252C",
+  "bgSelection": "#232530",
+  "bgHover": "#1E2027",
+  "bgDeep": "#12131A",
+
+  "fg": "#C9CDD6",
+  "fgBright": "#EDEFF4",
+  "fgSecondary": "#B0B5C2",
+  "fgMuted": "#8A90A0",
+  "fgFaint": "#6E7383",
+  "fgSubtle": "#4A4E5C",
+  "fgWhitespace": "#3A3E4A",
+
+  "borderSubtle": "#2A2D37",
+  "borderStrong": "#454A5A",
+
+  "accentBlue": "#5FB0FC",
+  "accentBlueHover": "#7CBEFC",
+  "accentBlueBright": "#84C4FD",
+
+  "green": "#8BCB8B",
+  "greenBright": "#A3DBA3",
+  "orange": "#E5A663",
+  "yellow": "#E5C07B",
+  "yellowBright": "#EDD497",
+  "red": "#F06B78",
+  "redBright": "#F6868F",
+  "purple": "#C296EB",
+  "purpleBright": "#D3AEF0",
+  "cyan": "#56C2D6",
+  "cyanBright": "#79D3E3",
+  "pink": "#F0A6A6"
+}

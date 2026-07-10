@@ -1,0 +1,16 @@
+{
+  "statusBar.background": "{{bg1}}",
+  "statusBar.foreground": "{{fgMuted}}",
+  "statusBar.border": "{{bg2}}",
+  "statusBar.debuggingBackground": "{{orange}}",
+  "statusBar.debuggingForeground": "{{bgDeep}}",
+  "statusBar.noFolderBackground": "{{bg1}}",
+  "statusBarItem.remoteBackground": "{{accentBlue}}",
+  "statusBarItem.remoteForeground": "{{bgDeep}}",
+
+  "titleBar.activeBackground": "{{bg1}}",
+  "titleBar.activeForeground": "{{fg}}",
+  "titleBar.inactiveBackground": "{{bg1}}",
+  "titleBar.inactiveForeground": "{{fgFaint}}",
+  "titleBar.border": "{{bg2}}"
+}

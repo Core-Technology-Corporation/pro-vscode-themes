@@ -1,0 +1,8 @@
+{
+  "activityBar.background": "{{bg1}}",
+  "activityBar.foreground": "{{fg}}",
+  "activityBar.inactiveForeground": "{{fgSubtle}}",
+  "activityBar.border": "{{bg2}}",
+  "activityBarBadge.background": "{{accentBlue}}",
+  "activityBarBadge.foreground": "{{bgDeep}}"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Macros",
+    "scope": ["entity.name.function.macro.rust", "support.function.macro.rust"],
+    "settings": { "foreground": "{{cyan}}" }
+  },
+  {
+    "name": "Lifetimes",
+    "scope": ["storage.modifier.lifetime.rust", "entity.name.type.lifetime.rust"],
+    "settings": { "foreground": "{{orange}}", "fontStyle": "italic" }
+  },
+  {
+    "name": "Attributes",
+    "scope": ["meta.attribute.rust", "punctuation.definition.attribute.rust"],
+    "settings": { "foreground": "{{yellow}}" }
+  },
+  {
+    "name": "Traits",
+    "scope": ["entity.name.type.trait.rust"],
+    "settings": { "foreground": "{{yellow}}", "fontStyle": "italic" }
+  }
+]

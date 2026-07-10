@@ -1,0 +1,93 @@
+[
+  { "settings": { "foreground": "{{fg}}" } },
+  {
+    "name": "Comments",
+    "scope": ["comment", "punctuation.definition.comment"],
+    "settings": { "foreground": "{{fgFaint}}", "fontStyle": "italic" }
+  },
+  {
+    "name": "Strings",
+    "scope": ["string", "string.quoted", "string.template"],
+    "settings": { "foreground": "{{green}}" }
+  },
+  {
+    "name": "Numbers and constants",
+    "scope": ["constant.numeric", "constant.language", "constant.character", "constant.other"],
+    "settings": { "foreground": "{{orange}}" }
+  },
+  {
+    "name": "Keywords",
+    "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control"],
+    "settings": { "foreground": "{{purple}}" }
+  },
+  {
+    "name": "Operators and punctuation",
+    "scope": ["keyword.operator", "punctuation"],
+    "settings": { "foreground": "{{fgMuted}}" }
+  },
+  {
+    "name": "Functions and methods",
+    "scope": ["entity.name.function", "support.function", "meta.function-call"],
+    "settings": { "foreground": "{{accentBlue}}" }
+  },
+  {
+    "name": "Classes and types",
+    "scope": ["entity.name.class", "entity.name.type", "support.class", "support.type"],
+    "settings": { "foreground": "{{yellow}}" }
+  },
+  {
+    "name": "Variables and parameters",
+    "scope": ["variable", "variable.parameter", "variable.other"],
+    "settings": { "foreground": "{{fg}}" }
+  },
+  {
+    "name": "Language constants (this/self/true/false)",
+    "scope": ["variable.language", "constant.language.boolean"],
+    "settings": { "foreground": "{{pink}}" }
+  },
+  {
+    "name": "Tags",
+    "scope": ["entity.name.tag", "meta.tag"],
+    "settings": { "foreground": "{{red}}" }
+  },
+  {
+    "name": "Attributes",
+    "scope": ["entity.other.attribute-name"],
+    "settings": { "foreground": "{{orange}}" }
+  },
+  {
+    "name": "Property names",
+    "scope": ["variable.other.property", "support.type.property-name"],
+    "settings": { "foreground": "{{cyan}}" }
+  },
+  {
+    "name": "Regex",
+    "scope": ["string.regexp"],
+    "settings": { "foreground": "{{cyan}}" }
+  },
+  {
+    "name": "Markup headings",
+    "scope": ["markup.heading"],
+    "settings": { "foreground": "{{accentBlue}}", "fontStyle": "bold" }
+  },
+  {
+    "name": "Markup bold",
+    "scope": ["markup.bold"],
+    "settings": { "fontStyle": "bold" }
+  },
+  {
+    "name": "Markup italic",
+    "scope": ["markup.italic"],
+    "settings": { "fontStyle": "italic" }
+  },
+  {
+    "name": "Markup links",
+    "scope": ["markup.underline.link", "string.other.link"],
+    "settings": { "foreground": "{{cyan}}" }
+  },
+  {
+    "name": "Invalid",
+    "scope": ["invalid", "invalid.illegal"],
+    "settings": { "foreground": "{{red}}", "fontStyle": "underline" }
+  }
+]
